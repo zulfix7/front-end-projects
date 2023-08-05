@@ -1,0 +1,560 @@
+     
+/* Responsive for Small Devices */
+@media (max-width:320px) {
+    .herol p{
+        position: relative;
+        left: 5px;
+        top: 25px;
+    }
+    .herol h1{
+        font-size: 8.8vw;
+        position: relative;
+        left: 1vw;
+    }
+    .contectus{
+        position: relative;
+       top: 40px;
+    }
+    .ani-gif{
+        position: relative;
+        width: 100vw;
+
+    }
+    .ani-gif img{
+        width: 70%;
+        z-index: -6;
+        position: relative;
+        top: 5vh;
+    }
+    .animouse{
+        border: 2px solid rgba(200, 189, 189, 0.823);
+        position: relative;
+        left: -15px;
+        width: 100vw;
+        top: -50px;
+    
+    }
+    .animouse img{
+            width: 50vw;
+            margin: 0px auto;
+    }
+    .about-sec{
+        
+    }
+    .about-sec .heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .vector-box .v1{
+        width: 18vw;
+      }
+      .vector-box .v2{
+            width:20vw;
+      }
+      .vector-box .v3{
+        width: 13vw;
+        left: 8vw;
+        top: 3.8vw;
+      }
+      .about-text{
+        font-size: 2.2vw;
+        text-align: justify;
+      }
+      .img2{
+        top: -5vw;
+        left: 9vw;
+        
+      }
+      .projects p{
+        font-size: 35px;
+        font-weight: 700;
+      }
+      .s-box{
+        border: 1px solid black;
+        width: 32vw;
+        margin: 1vw;
+        height: 35vw;
+        border-radius: 3vw;
+      }
+      .s-box .title{
+        font-size: 4vw;
+        top: 2vw;
+        font-weight: 900;
+      }
+     
+      .v-box{
+        left: 6vw;
+      bottom: 1vw;
+      }
+      .v-box div p{
+        font-size: 2.5vw;
+      }
+      .v-box div img{
+        top: -1.3vw;
+        left: 1.2vw;
+      }
+      .contactusr{
+        margin-top: 30vw;
+        }
+        .submit{
+
+          left: 2vw;
+          bottom: 2vw;
+        }
+        .contactusr form input{
+            border-radius: 3vw;
+            margin: 2vw;
+            padding: 1vw;
+        }
+        .icons{
+          margin-top: 10vw;
+        }
+        .icons img{
+          width: 10vw;
+          height: 10vw;
+          margin: 3vw;
+        }
+        .footer{
+          height: 20vw;
+        }
+        .lfimg{
+            left: 0px; bottom: -0px;
+            height: 14vw;
+        }
+        .rfimg{
+            right: 0px; bottom: 0px;
+            height: 20vw;
+        }
+        
+        
+      
+     
+    
+}
+
+/* Responsive of Medium Small Devices */
+@media only screen and (min-width:375px){
+
+    .herol p{
+        position: relative;
+        left: 5px;
+        top: 25px;
+    }
+    .herol h1{
+        font-size: 8.8vw;
+        width: fit-content;
+        position: relative;
+        left: 1vw;
+    }
+    .contectus{
+        position: relative;
+       top: 40px;
+    }
+    .ani-gif{
+        position: relative;
+        width: 100vw;
+
+    }
+    .ani-gif img{
+        width: 70%;
+        z-index: -6;
+        position: relative;
+        top: 5vh;
+    }
+    .animouse{
+        border: 2px solid rgba(200, 189, 189, 0.823);
+        position: relative;
+        left: -15px;
+        width: 100vw;
+        top: -50px;
+    
+    }
+    .animouse img{
+            width: 50vw;
+            margin: 0px auto;
+    }
+    .about-sec{
+        
+    }
+    .about-sec .heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .vector-box .v1{
+        width: 18vw;
+      }
+      .vector-box .v2{
+            width:20vw;
+      }
+      .vector-box .v3{
+        width: 13vw;
+        left: 7vw;
+        top: 3.8vw;
+      }
+      .about-text{
+        font-size: 2.2vw;
+        text-align: justify;
+      }
+      .img2{
+        top: -5vw;
+        left: 9vw;
+        
+      }
+      .projects p{
+        font-size: 35px;
+        font-weight: 700;
+      }
+      .s-box{
+        border: 1px solid black;
+        width: 32vw;
+        margin: 1vw;
+        height: 35vw;
+        border-radius: 3vw;
+      }
+      .s-box .title{
+        font-size: 4vw;
+        top: 2vw;
+        font-weight: 900;
+      }
+     
+      .v-box{
+        left: 6vw;
+      bottom: 1vw;
+      }
+      .v-box div p{
+        font-size: 2.5vw;
+      }
+      .v-box div img{
+        top: -1.3vw;
+        left: 1.2vw;
+      }
+      .contactusr{
+        margin-top: 30vw;
+        }
+        .submit{
+          left: 2vw;
+          bottom: 2vw;
+        }
+        .contactusr form input{
+            border-radius: 3vw;
+            margin: 2vw;
+            padding: 1vw;
+        }
+        .icons{
+          margin-top: 10vw;
+        }
+        .icons img{
+          width: 10vw;
+          height: 10vw;
+          margin: 3vw;
+        }
+        .footer{
+          height: 20vw;
+        }
+        
+
+}
+
+/* Responsive of Medium Large Devices */
+@media only screen and (min-width:425px){
+    .abc{
+      background-color: yellow;
+    }
+
+    .herol p{
+        position: relative;
+        left: 5px;
+        top: 25px;
+    }
+    .herol h1{
+        font-size: 7.6vw;
+        position: relative;
+        left: 1vw;
+        bottom: -1vw;
+    }
+    .contectus{
+        position: relative;
+       top: 40px;
+    }
+    .ani-gif{
+        position: relative;
+        width: 100vw;
+
+    }
+    .ani-gif img{
+        width: 70%;
+        z-index: -6;
+        position: relative;
+        top: 5vh;
+    }
+    .animouse{
+        border: 2px solid rgba(200, 189, 189, 0.823);
+        position: relative;
+        left: -15px;
+        width: 100vw;
+        top: -50px;
+    
+    }
+    .animouse img{
+            width: 50vw;
+            margin: 0px auto;
+    }
+    .about-sec .heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .vector-box .v1{
+        width: 18vw;
+      }
+      .vector-box .v2{
+            width:20vw;
+      }
+      .vector-box .v3{
+        width: 13vw;
+        left: 8vw;
+        top: 3.8vw;
+      }
+      .about-text{
+        font-size: 2.2vw;
+        text-align: justify;
+      }
+      .img2{
+        top: -5vw;
+        left: 9vw;
+        
+      }
+      .projects p{
+        font-size: 35px;
+        font-weight: 700;
+      }
+      .s-box{
+        border: 1px solid black;
+        width: 32vw;
+        margin: 1vw;
+        height: 35vw;
+        border-radius: 3vw;
+      }
+      .s-box .title{
+        font-size: 4vw;
+        top: 2vw;
+        font-weight: 900;
+      }
+     
+      .v-box{
+        left: 6vw;
+      bottom: 1vw;
+      }
+      .v-box div p{
+        font-size: 2.5vw;
+      }
+      .v-box div img{
+        top: -1.3vw;
+        left: 1.2vw;
+      }
+      .contactusr{
+        margin-top: 30vw;
+        }
+        .submit{
+          left: -21vw;
+          bottom: 2vw;
+        }
+        .contactusr form input{
+            border-radius: 3vw;
+            margin: 2vw;
+            padding: 1vw;
+            display: block;
+        }
+        .icons{
+          margin-top: 10vw;
+        }
+        .icons img{
+          width: 10vw;
+          height: 10vw;
+          margin: 3vw;
+        }
+        .footer{
+          height: 20vw;
+        }
+    
+    
+}
+
+@media only screen and(min-width:700px) {
+    .herol h1{
+        font-size: 3.6vw;
+        width: 570px;
+        position: relative;
+        left: 1vw;
+        bottom: -1vw;
+    } 
+}
+
+/* Responsive of Tablet Devices */
+@media only screen and (min-width:768px){
+    .abc{
+      background-color: blue;
+    }
+    .herol p{
+        position: relative;
+        left: 5px;
+        top: 25px;
+    }
+    .herol h1{
+        font-size: 4.6vw;
+        position: relative;
+        left: 1vw;
+        bottom: -1vw;
+    }
+    .vector-box .v3{
+        width: 13vw;
+        left: 6vw;
+        top: 3.8vw;
+      }
+      .vector-box .v2{
+        width:20vw;
+        position: relative;
+        left: -1vw;
+  }
+  .submit{
+    left: -32.5vw;
+    bottom: 2vw;
+  }
+  .ani-gif, .herol{
+    display: inline;
+  }
+  .ani-gif img{
+    width: 55vw;
+    top: -15vw;
+    left: 30vw;
+  }
+
+  .animouse{
+    border: 2px solid rgba(200, 189, 189, 0.823);
+    position: relative;
+    left: -15px;
+    width: 100vw;
+    top: -18vw;
+
+}
+  .animouse img{
+
+    justify-content: center;
+    width: 40vw; 
+  }
+  .contactusr form input{
+    border-radius: 3vw;
+    width: 40vw;
+    margin: 2vw;
+    padding: 2vw;
+    font-size: 2vw;
+    display: block;
+}
+.v-box{
+left: 10vw;
+}
+.v-box div img{
+    top: 3px;
+}
+
+
+
+    
+
+}
+
+/* Responsive of Laptop Devices */
+@media only screen and (min-width:1024px){
+    .abc{
+      background-color:green;
+    }
+    .herol p{
+        position: relative;
+        left: 1.1vw;
+        top: 25px;
+    }
+    .herol h1{
+        font-size: 4.8vw;
+        width: fit-content;
+        position: relative;
+        left: 1vw;
+        bottom: -1vw;
+        font-weight: 700;
+    }
+   
+      .contectus{
+        border: 0px;
+        position: relative;
+        left: 1.1vw;
+        padding: 5px 20px;
+        font-weight: 400;
+        border-radius: 10px;
+        background-color: #D9D9D9;
+      }
+    .vector-box .v3{
+        width: 13vw;
+        left: 6vw;
+        top: 3.8vw;
+      }
+      .vector-box .v2{
+        width:20vw;
+        position: relative;
+        left: -1vw;
+  }
+  .submit{
+    left: -32.5vw;
+    bottom: 2vw;
+  }
+  .ani-gif, .herol{
+    display: inline;
+  }
+  .ani-gif img{
+    width: 55vw;
+    top: -12vw;
+    left: 30vw;
+  }
+
+  .animouse{
+    border: 2px solid rgba(200, 189, 189, 0.823);
+    position: relative;
+    left: -10px;
+    width: 100vw;
+    top: -18vw;
+
+}
+  .animouse img{
+
+    justify-content: center;
+    width: 40vw; 
+  }
+  .contactusr form input{
+    border-radius: 3vw;
+    width: 40vw;
+    margin: 2vw;
+    padding: 2vw;
+    font-size: 2vw;
+    display: block;
+}
+       
+        .lfimg{
+            left: 0px; bottom: -0px;
+            height: 10vw;
+        }
+        .rfimg{
+            right: 0px; bottom: 0px;
+            height: 13vw;
+        }
+        .icons img{
+            width: 7vw;
+            height: 7vw;
+            margin: 3vw;
+          }
+
+}
+
+/* Responsive for Large Screen Devices */
+@media only screen and (min-width:1440px){
+    .abc{
+      background-color:green;
+    }
+    
+}

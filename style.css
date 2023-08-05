@@ -1,0 +1,514 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    /* background-color: antiquewhite; */
+    display: flex;    
+}
+body,header,.hero{
+    width: 1440px;
+}
+.left{
+    width: 370px;
+    /* background-color: pink; */
+    padding-left: 21px;
+}
+.right{
+    width: 370px;
+    /* background-color: pink; */
+    padding-right: 21px;
+}
+#menu{
+    display: none;
+}
+.middle{
+    width: 950px;
+    /* background-color: aqua;     */
+    text-align: center;
+    padding-top: 14px;
+}
+.middle span a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-family:  'ubuntu', sans-serif;
+    font-weight: 400px;
+}
+.middle span{
+    /* background-color: red; */
+    padding: 14px 10px 14px 10px;
+    margin: 0px 21px 0px 21px;
+
+}
+.right{
+    padding-top: 14px;
+    padding-left: 100px;
+}
+.right span{
+/* background-color: aqua; */
+padding: 14px 14px 14px 14px;
+}
+.right span a{
+    text-decoration: none;
+    /* color: gray; */
+    font-size: 14px;
+    font-family:  'ubuntu', sans-serif;
+    font-weight: 400px;
+}
+#signup{
+    background-color: #42454A;
+    border-radius: 4px;
+}
+#signup a{
+    color: white;
+}
+.hero{
+    margin-top: 28px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.hleft{
+    width: 700px;
+    padding-left: 25px;
+    padding-top: 87px;
+}
+.h1{
+    font-size: 90px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 100;
+    z-index: 2;
+    color: #42454A;
+}
+span .h2{
+    font-size: 90px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 700;
+    color: #42454A;
+    z-index: 2;
+}
+span .dot{
+  /* background-color: antiquewhite; */
+ width: 11px ;
+ height: 11px;
+ border-radius:11px ;
+ margin-top: 49px;
+ margin-left:1px;
+ background-color: black;
+}
+/* .buybox{
+    height: 100px;
+    width: 100px;
+    display: block;
+} */
+.hright{
+    width: 720px;
+    position: relative;
+    /* background-color: aqua; */
+}
+.hright .shadow{
+background-color: rgba(209, 221, 221, 0.592);
+width: 537px;
+height: 540px;
+position: absolute;
+right: -6px;
+top: 55px;
+border-radius: 100% 0px 0px 100%;
+}
+.hright img{
+    position: absolute;
+    width: 100%;
+    right: 10px;
+}
+.space{
+    position: relative;
+}
+.buybox{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 7px;
+}
+.space{
+    height: 200px
+}
+.featurebox{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+}
+.features{
+    width: 174px;
+    height: 137px;
+    border-radius: 6.61px;
+    margin: 29px;
+    background-color:white;
+    box-shadow: 0px 0px 20px rgb(236, 232, 232);
+    
+}
+.sp1{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+    font-family:  'ubuntu', sans-serif;
+    font-weight: 900;
+}
+.sp1 h2{
+    font-size: 40px;
+}
+.sp1 h4{
+    padding-top:7px;
+    padding-left: 7px;
+}
+.sp2 p{
+margin-top: 17px;
+text-align: center;
+font-size:13px ;
+font-family:  'ubuntu', sans-serif;
+}
+.productinfo{
+    margin-top: 127px;
+    text-align: center;
+    font-family:  'ubuntu', sans-serif;
+}
+.productinfo h1{
+    font-size: 51px;
+    
+}
+.productinfo p{
+    font-size: 20px;
+}
+.specBox{
+    display: flex;
+}
+.speccon{
+    margin-top: 100px;
+}
+.spec{
+    padding-top: 34px;
+    display: flex;
+    padding-left: 177px;
+}
+.spec span p, .accessspec div span p{
+    padding-top: 15px;
+    font-size: 20px;
+    font-family:  'ubuntu', sans-serif;
+}
+.moterbox{
+    padding-top: 126px;
+    text-align: center;
+    font-family:  'ubuntu', sans-serif;
+}
+.moterbox h1, .access h1{
+    // High Efficiency Motor
+    color: #42454A;
+     font-size: 50px;
+     font-weight: 700;
+     line-height: 60px;
+     word-wrap: break-word;
+     padding-bottom:20px;
+}
+.moterbox p{
+    font-size: 20px;
+}
+.access{
+    padding-top: 126px;
+    text-align: center;
+    font-family:  'ubuntu', sans-serif;
+}
+.accessbox{
+    width: 669px;
+    height:100px;
+    /* background-color: aqua; */
+    padding-left: 36px;
+    padding-top: 106px;
+    display: flex;
+    /* position: relative; */
+
+}
+
+.accessbox .accessspec h1{
+    font-size: 50px;
+    font-family:  'ubuntu', sans-serif;
+}
+
+.accessspec{
+padding-top: 15px;
+padding-left: 5px;
+}
+
+.accessspec div{
+    display: flex;
+    padding-top: 20px;
+}
+
+.accessboximges{
+    width: 200px;
+    height: 200px;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.shebox{
+    margin-top: 20px;
+    width: 100%;
+    height: 900%;
+}
+.golfspace{
+    margin-top:550px;
+}
+.shopping{
+display: flex;
+}
+.shoppingimg2{
+    /* background-color: aqua; */
+    margin-bottom: 60px;
+    margin-left: 70px;
+}
+.shoppingr{
+    width: 601px;
+    height: 200px;
+    /* background-color: aqua; */
+    /* padding-left: 107px; */
+}
+.shoppingr div h1{
+    font-size: 50px;
+    font-family:  'ubuntu', sans-serif;
+    text-align: center;
+
+}
+
+.shoppingr div div div{
+    margin-bottom: 20px;
+    padding-left: 120px;
+}
+.shoppingr div div div span img{
+    margin-right: 18px;
+}
+.spa{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.moreaccess{
+    margin-top: 103px;
+    text-align: center;   
+}
+.moreaccess .moreh1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 590px;
+    height: 94px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:  'ubuntu', sans-serif;
+    color: #42454A;
+    padding: 29px 62px 29px 62px;
+    border: 2.5px solid #42454A;
+    border-radius: 10px;
+}
+.gallerybox{
+    margin-top: 302px;
+    display: flex;
+    padding-left:50px ;
+    
+}
+.details{
+    /* background-color: aqua; */
+    /* height: 200px; */
+    width: 630px;
+    display: block;
+}
+.detailsbox{
+    padding-left: 50px;
+    margin-top: 55px;
+    display: flex;
+}
+.details h1{
+    padding: 29px 116px;
+    border: 2px solid #42454A;
+    font-size:30px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    font-family:  'ubuntu', sans-serif;
+    width: 570px;
+    text-align: center;
+    height: 94px;
+    border-radius: 10px;
+    /* background-color: aqua; */
+
+}
+.parts{
+    margin-left: 70px;
+    /* background-color: aqua; */
+    height: 467px;
+}
+.parts img{
+    position: relative;
+    top: -150px;
+    z-index: -1;
+}
+.parts p{
+    font-size: 30px;
+    font-family:  'ubuntu', sans-serif;
+    position: relative;
+    top: -80px;
+    left: 40px;
+}
+
+.colors{
+    width: 100%;
+    text-align: center;
+    color: #42454A;
+    top: 100px;
+    /* background-color: aqua; */
+}
+
+.colors h1{
+    font-size: 50px;
+    /* font-family:  'ubuntu', sans-serif; */
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 700;
+    margin-bottom: 36px;   
+}
+
+.colors p{
+    font-family:'ubuntu', sans-serif;
+    font-size: 20px;
+    margin-bottom: 106px;  
+}
+.colorsbox{
+display: flex;
+justify-content: center;
+position: relative;
+top: -150px;
+/* background-color: aqua; */
+height:290px;
+}
+
+
+.colorsbox div img{
+    width: 364px;
+    height: 364px;
+}
+.colorsbox div h1{
+    position: relative;
+    top: -145px;
+    right:-230px ;
+    font-size: 60px;
+    font-family: Ubuntu;
+    color: rgba(255, 255, 255, 0.60);
+}
+.testimonials{
+  background-color: #FAFAFA;
+}
+.testimonials h1{
+    color: #42454A;
+    font-size: 50px;
+    font-family: ubuntu;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 41px;
+
+}
+.testmonialbox{
+padding-top: 41px;
+padding-bottom: 41px;
+display: flex;
+justify-content: center;
+}
+.texttimonialboxes{
+height: 366px;
+width: 360px;
+margin-left: 36px;
+/* background-color:white; */
+padding-top: 45px;
+text-align: center;
+font-size: 20px;
+font-family: ubuntu;
+padding-left: 10px;
+font-weight: 400;
+padding-right: 10px;
+border: 1px solid rgba(0, 0, 0, 0.06);
+
+}
+.subtonl{
+    text-align: center;
+    font-family: ubuntu;
+    color: #42454A;
+}
+.subtonl h1{
+    font-size: 50px;
+}
+.subtonl p{
+    margin-top: 11px;
+    font-size: 20px;
+}
+.subtonl div{
+    margin-top:59px;
+}
+.subtonl div input,button{
+    font-family: ubuntu;
+    color: #42454A;
+}
+.subtonl div input{
+    padding: 27px 38px;
+    width: 400px;
+    height: 81px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #FAFAFA;
+    border: #42454a00;
+    border-radius: 10px;
+}
+.subtonl div button{
+    background-color: #42454A;
+    color: white;
+    padding: 27px 38px;
+    width: 196px;
+    border-radius: 10px;
+    height: 81px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer{
+    /* margin-top: 127px; */
+    background-color: #42454A;
+    /* height: 500px; */
+    position: relative;
+    top: 127px;
+    display: flex;
+}
+.fright{
+padding-left: 120px;
+padding-top: 99px;
+}
+table{
+    /* background-color: aqua; */
+    border: 0px;
+}
+tr{
+    /* background-color: azure; */
+}
+th,td{
+/* background-color: yellow; */
+font-family: ubuntu;
+width: 199px;
+text-align: left;
+margin-right: 50px;
+color: white;
+}
+th{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100px;
+}
+td{
+color: #FBFBFB;
+ font-size: 16px;
+ font-family: Ubuntu;
+ font-weight: 400;
+ line-height: 54px;
+}
+

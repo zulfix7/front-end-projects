@@ -1,0 +1,53 @@
+@media only screen and (max-width: 600px) {
+
+
+    .middle, .right{
+    display: none;
+  }
+  body,header,.hero{
+    width: 100%;
+  }
+  #menu{
+    display: inline;
+  }
+  .hleft{
+    width: 50%;
+    /* background-color: aqua; */
+    padding-left: 25px;
+    padding-top: 87px;
+  }
+  .h1{
+    font-size: 26px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 100;
+    z-index: 2;
+    color: #42454A;
+  }
+  span .h2{
+    font-size: 25px;
+ 
+  }
+  span .dot{
+    width: 5px ;
+    height: 5px;
+    margin-top: 19px;
+   
+  }
+  .hright{
+    width: 50%;
+    position: relative;
+    /* background-color: aqua; */
+}
+.hright img{
+  width: 300px;
+}
+.hright .shadow{
+  background-color: rgba(209, 221, 221, 0.592);
+  width: 257px;
+  height: 140px;
+  position: absolute;
+  right: -6px;
+  top: 55px;
+  border-radius: 100% 0px 0px 100%;
+  }
+}
